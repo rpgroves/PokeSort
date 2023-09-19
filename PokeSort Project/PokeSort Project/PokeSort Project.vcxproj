@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Git Repositories\PokeSort\PokeSort Project\Final Project Next\Block.h" />
-    <ClInclude Include="..\..\..\Git Repositories\PokeSort\PokeSort Project\Final Project Next\BTree.h" />
-    <ClInclude Include="..\..\..\Git Repositories\PokeSort\PokeSort Project\Final Project Next\LinkedList.h" />
-    <ClInclude Include="..\..\..\Git Repositories\PokeSort\PokeSort Project\Final Project Next\Pokemon.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="BTree.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Pokemon.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Git Repositories\PokeSort\PokeSort Project\Final Project Next\Main.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
